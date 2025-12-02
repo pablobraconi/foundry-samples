@@ -1,6 +1,11 @@
 location = "westus3"
 
-# Optional
-virtual_network_address_space          = "192.168.0.0/16"
-agent_subnet_address_prefix            = "192.168.0.0/24"
-private_endpoint_subnet_address_prefix = "192.168.1.0/24"
+# Existing resources configuration
+existing_resource_group_name = "rg-aifoundry1903"
+existing_vnet_name          = "vnet-agents1903"
+existing_subnet_name        = "snet-agent"
+existing_search_name        = "aifoundry1903search"
+existing_storage_account_name = "aifoundry1903storage"
+existing_cosmosdb_name      = "aifoundry1903cosmosdb"
+existing_foundry_name       = "aifoundry1903"
+new_project_name           = "project2"
